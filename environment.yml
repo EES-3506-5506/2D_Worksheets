@@ -21,7 +21,7 @@ channels:
 ## specified, it will dowbload the latest version available from the default or 
 ## conda-forge channel
 
-# dependencies:
+ dependencies:
  - python   # Python version 3.9
  - cmocean       # Oceanography colormaps
  - cartopy
