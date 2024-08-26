@@ -6,7 +6,7 @@
 #       mamba env create -f climate.yml
 
 # Sets the name of the environment
-name: climate
+# name: climate
 
 # This block of text identifies the "channels" from which python packages are
 # hosted and installed from. By default, the conda packae manager installs packages
@@ -21,7 +21,7 @@ channels:
 ## specified, it will dowbload the latest version available from the default or 
 ## conda-forge channel
 
- dependencies:
+dependencies:
  - python   # Python version 3.9
  - cmocean       # Oceanography colormaps
  - cartopy
