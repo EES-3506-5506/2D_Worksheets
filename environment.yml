@@ -5,8 +5,6 @@
 # or with mamba (recommended):
 #       mamba env create -f climate.yml
 
-# Sets the name of the environment
-name: climate
 
 # This block of text identifies the "channels" from which python packages are
 # hosted and installed from. By default, the conda packae manager installs packages
