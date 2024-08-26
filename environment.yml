@@ -6,16 +6,16 @@
 #       mamba env create -f climate.yml
 
 # Sets the name of the environment
-#name: climate
+name: climate
 
 # This block of text identifies the "channels" from which python packages are
 # hosted and installed from. By default, the conda packae manager installs packages
 # from the defaults channel, but Conda-forge is a community led channel that maintains
 # up to date packages with the help of thousands of contributors.
 
-# channels:
-#   - defaults
-#   - conda-forge
+channels:
+  - defaults
+  - conda-forge
 
 ## the Python packages you want to install and their versions. If version is not 
 ## specified, it will dowbload the latest version available from the default or 
